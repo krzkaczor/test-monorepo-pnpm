@@ -1,6 +1,6 @@
 {
   "name": "package-b",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "main": "./dist/cjs/index.js",
   "module": "./dist/index.js",
@@ -23,6 +23,6 @@
     "prepublishOnly": "pnpm lint && pnpm test && pnpm build"
   },
   "dependencies": {
-    "package-a": "workspace:^0.1.0"
+    "package-a": "workspace:^0.2.0"
   }
 }

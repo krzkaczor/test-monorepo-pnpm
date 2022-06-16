@@ -48,7 +48,7 @@ importers:
 
   packages/package-b:
     specifiers:
-      package-a: workspace:^0.1.0
+      package-a: workspace:^0.2.0
     dependencies:
       package-a: link:../package-a
 
