@@ -17,7 +17,7 @@
     "watch": "tsc --build --verbose --watch ./tsconfig.prod.json",
     "clean": "pnpm --filter './packages/**' clean",
     "test": "pnpm run --parallel --aggregate-output --reporter append-only --filter './packages/**' test",
-    "ci:version": "echo version!!! && pnpm changeset version",
+    "ci:version": "pnpm install && pnpm changeset version",
     "ci:publish": "echo publish!!!",
     "fix": "pnpm lint:fix && pnpm format:fix && pnpm test && pnpm typecheck"
   },
